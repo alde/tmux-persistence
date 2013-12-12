@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # Start - Configuration Variables
-sessionDir = "~/.sessions"
+sessionDir = "#{Dir.home}/.sessions"
 maxStoredSessions = 5
 filesToRoll = 3
 # End - Configuration Variables
